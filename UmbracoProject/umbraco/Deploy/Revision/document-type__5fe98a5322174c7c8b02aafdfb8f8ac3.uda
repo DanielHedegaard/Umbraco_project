@@ -1,0 +1,123 @@
+{
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "DefaultTemplate": "umb://template/4c1a51420cb54ca4befd66c4b1f55143",
+  "AllowedTemplates": [
+    "umb://template/4c1a51420cb54ca4befd66c4b1f55143"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedAtRoot": true,
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "1652121f-9303-49d1-99d7-160f5a657e8d",
+      "Name": "Body",
+      "SortOrder": 1,
+      "Alias": "body",
+      "PropertyTypes": [
+        {
+          "Key": "79d4d6b1-1bff-429e-8122-dd27812f2603",
+          "Alias": "bodyImage",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": "home image",
+          "Name": "Body Image",
+          "SortOrder": 3
+        },
+        {
+          "Key": "9842ca1f-812f-4cd6-ad88-53d7a08700d9",
+          "Alias": "bodyContent",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": "main body text",
+          "Name": "Body Content",
+          "SortOrder": 2
+        },
+        {
+          "Key": "ca0e1c77-26f3-4051-845c-cdd6363298aa",
+          "Alias": "heading1",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "Heading 1"
+        },
+        {
+          "Key": "df47154e-f3ad-499f-8dc9-75d418376d93",
+          "Alias": "heading2",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "Heading 2",
+          "SortOrder": 1
+        }
+      ]
+    },
+    {
+      "Key": "1ae838ba-486f-4652-bff8-f27d27bee0c3",
+      "Name": "Footer",
+      "SortOrder": 2,
+      "Alias": "footer",
+      "PropertyTypes": [
+        {
+          "Key": "3a462b39-fedd-4d9f-84f1-df8f85c41ace",
+          "Alias": "footerContent",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": "footer text, adress, phone etc.",
+          "Name": "Footer Content",
+          "SortOrder": 1
+        },
+        {
+          "Key": "46926b55-1888-40ae-b6db-036e1a8b3aa8",
+          "Alias": "footerLogo",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": "Logo for footer (image)",
+          "Name": "Footer logo",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "Key": "2a2a00ff-cff8-45a9-9665-354cfacf43ea",
+      "Name": "Home",
+      "Alias": "home",
+      "PropertyTypes": [
+        {
+          "Key": "941d729d-58b4-4745-a22b-2ca38ea4ca81",
+          "Alias": "header",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": "logo/image",
+          "Name": "Header"
+        },
+        {
+          "Key": "c9cd466d-d654-4e29-9092-3b779ae8ccec",
+          "Alias": "menu",
+          "DataType": "umb://data-type/a9443298b1f8435e949a7bc21c952e6b",
+          "Description": "menu/links/navbar",
+          "Name": "Menu",
+          "SortOrder": 1
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5fe98a5322174c7c8b02aafdfb8f8ac3",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/a9443298b1f8435e949a7bc21c952e6b",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/4c1a51420cb54ca4befd66c4b1f55143",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Home Page - Menu - Repeatable textstrings",
+  "Alias": "",
+  "EditorAlias": "Umbraco.MultipleTextstring",
+  "Configuration": {
+    "Minimum": 1,
+    "Maximum": 5
+  },
+  "Udi": "umb://data-type/a9443298b1f8435e949a7bc21c952e6b",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "13.1.0"
+}

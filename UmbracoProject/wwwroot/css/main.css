@@ -1,0 +1,101 @@
+
+.divisoLogo {
+    width:25%;
+    text-align:center;
+}
+
+
+.text-bold{
+    font-weight: bold;
+    margin-top:20px;
+    
+}
+
+.heading1{
+    color:#002B4E;
+    font-weight:bold;
+}
+
+.heading2{
+    color:#FD5819;
+    font-weight:bold;
+}
+
+.menu{
+    display: flex;
+    color:white;
+    background:#002B4E;
+    list-style-type: none;
+    padding: 15;
+    overflow: hidden;
+    justify-content:center;
+}
+
+
+.menu li {
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.menu li:hover{
+    text-decoration:underline;
+}
+
+.body-layout{
+    display:flex;
+    justify-content:center;
+}
+
+.body-image{
+    border-radius: 183px ; 
+}
+
+.body-width{
+    width:50%;
+}
+
+.text-placement{
+    text-align:left;
+}
+
+footer{
+    background:#D8D8D8;
+    height:115px;
+}
+
+.footer-layout{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+@media only screen and (max-width:1500px){
+    
+    .body-layout{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        text-align:center;
+    }
+    
+    .body-width{
+        width:100%;
+    }
+    
+    .body-image{
+         margin-bottom:70px;
+    }
+    
+    .text-placement{
+        text-align:center;
+    }
+
+}
+
+@media only screen and (max-width:995px){
+    .body-image{
+        width:70%;
+        height:70%;
+    }
+}

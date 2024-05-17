@@ -1,0 +1,27 @@
+{
+  "Deploy": {
+    "Project": {
+      "Name": "daniels ambitious beaver",
+      "Alias": "daniels-ambitious-beaver",
+      "Id": "5e8dd0c7-70d8-4409-a065-58ad8ff1276a",
+      "TrialExpireDate": "2024-05-21T08:03:39.0000000",
+      "Workspaces": [
+        {
+          "Id": "7d36bb9b-c19b-4536-a1f7-1c4387049c44",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://daniels-ambitious-beaver.euwest01.umbraco.io"
+        }
+      ]
+    },
+    "Settings": {
+      "ApiKey": "0603821D9569829E2C370DBE0CC1A4B2F5B68E68"
+    }
+  },
+  "Identity": {
+    "ClientId": "0297c0f6-83ad-4481-9ae2-07a3f5475333",
+    "ClientSecret": "Q5~T526ixOHlj47lg7Mu7_.zN1fK.7ua.9",
+    "EnvironmentId": "7d36bb9b-c19b-4536-a1f7-1c4387049c44",
+    "LocalLoginRedirectUri": "https://redirect.identity.umbraco.com"
+  }
+}
